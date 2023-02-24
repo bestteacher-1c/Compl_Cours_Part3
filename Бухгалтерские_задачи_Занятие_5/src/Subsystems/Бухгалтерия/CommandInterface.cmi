@@ -7,10 +7,6 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>DataProcessor.КонсольЗапросов.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -29,7 +25,6 @@
       <commands>Constant.РасчетыПоДоговорам.StandardCommand.Open</commands>
       <commands>Constant.ВалютаМСФО.StandardCommand.Open</commands>
       <commands>Constant.УчетДДС.StandardCommand.Open</commands>
-      <commands>DataProcessor.КонсольЗапросов.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
   <subsystemsOrder>

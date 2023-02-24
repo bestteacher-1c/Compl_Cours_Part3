@@ -13,6 +13,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0a4f05d6-f7e3-49bc-b776-8ae50e23786b"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8509a85a-13b0-4837-a40b-b0f095534b93"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="69eb35b8-6540-4ae1-a630-4952d56a41a1"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -77,6 +78,7 @@
   <documentJournals>DocumentJournal.ДенежныеСредства</documentJournals>
   <enums>Enum.ВидыОперацийПродажиТоваров</enums>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыНоменклатуры</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

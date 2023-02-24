@@ -20,7 +20,6 @@
   <content>Report.АнализСчетаПоДатам</content>
   <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
   <content>Report.АнализСчета_</content>
-  <content>DataProcessor.КонсольЗапросов</content>
   <content>CommonForm.ФормаКонстант</content>
   <content>Report.КурсовыеРазницы</content>
   <content>Report.АнализДДС</content>

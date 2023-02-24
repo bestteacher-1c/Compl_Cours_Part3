@@ -12,10 +12,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.КонсольЗапросов.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>CommonForm.ФормаКонстант.StandardCommand.Open</command>
       <visible>
         <common>true</common>

@@ -3,15 +3,14 @@
   <commandsVisibility>
     <visibilityFragments>
       <command>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>ActionsPanelTools</group>
       <commands>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</commands>
+      <commands>DataProcessor.КонсольЗапросов.StandardCommand.Open</commands>
     </placementFragments>
   </commandsPlacement>
 </cmi:CommandInterface>

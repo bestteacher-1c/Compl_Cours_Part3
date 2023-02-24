@@ -33,4 +33,5 @@
   <content>DataProcessor.ОбработкаДокументовПродажаТоваров</content>
   <content>Constant.ВалютаХолдинга</content>
   <content>Constant.ВалютаУчета</content>
+  <content>DataProcessor.КонсольЗапросов</content>
 </mdclass:Subsystem>

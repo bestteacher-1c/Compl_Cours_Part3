@@ -19,7 +19,6 @@
   <content>Report.Ведомость</content>
   <content>Report.АнализСчетаПоДатам</content>
   <content>Report.АнализСчета_</content>
-  <content>DataProcessor.КонсольЗапросов</content>
   <content>Constant.СкладскойУчет</content>
   <content>Constant.РасчетыПоДоговорам</content>
   <content>Constant.УчетДДС</content>

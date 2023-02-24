@@ -16,7 +16,6 @@
   <content>Report.ЖурнальныйОрдер</content>
   <content>Report.Ведомость</content>
   <content>Report.АнализСчета_</content>
-  <content>DataProcessor.КонсольЗапросов</content>
   <content>Constant.СкладскойУчет</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>
