@@ -9,6 +9,7 @@
 	</order>
 	<conditionalAppearance>
 		<item>
+			<use>false</use>
 			<selection>
 				<item>
 					<field>СчетДт</field>

@@ -157,7 +157,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
-  <forms uuid="e97cdf27-c08b-4b07-8db8-4336445f981f">
+  <forms uuid="caac1e20-8886-4280-bbb7-803a10453fd5">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

@@ -9,6 +9,7 @@
 	</order>
 	<conditionalAppearance>
 		<item>
+			<use>false</use>
 			<selection>
 				<item>
 					<field>СчетДт</field>
@@ -31,12 +32,6 @@
 		<item>
 			<selection>
 				<item>
-					<field>ВидСубконтоДт1</field>
-				</item>
-				<item>
-					<field>ВидСубконтоДт2</field>
-				</item>
-				<item>
 					<field>ПодразделениеДт</field>
 				</item>
 				<item>
@@ -50,6 +45,12 @@
 				</item>
 				<item>
 					<field>СчетДт</field>
+				</item>
+				<item>
+					<field>ВалютаДт</field>
+				</item>
+				<item>
+					<field>СуммаВалютыДт</field>
 				</item>
 			</selection>
 			<filter/>
@@ -68,12 +69,6 @@
 		<item>
 			<selection>
 				<item>
-					<field>ВидСубконтоКт1</field>
-				</item>
-				<item>
-					<field>ВидСубконтоКт2</field>
-				</item>
-				<item>
 					<field>ПодразделениеКт</field>
 				</item>
 				<item>
@@ -84,6 +79,12 @@
 				</item>
 				<item>
 					<field>СубконтоКт2</field>
+				</item>
+				<item>
+					<field>СчетКт</field>
+				</item>
+				<item>
+					<field>ВалютаКт</field>
 				</item>
 				<item>
 					<field>СчетКт</field>
