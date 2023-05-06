@@ -110,7 +110,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.Период</segments>
+          <segments>Список.Period</segments>
         </dataPath>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
@@ -157,7 +157,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.НомерСтроки</segments>
+          <segments>Список.LineNumber</segments>
         </dataPath>
         <extendedTooltip>
           <name>НомерСтрокиРасширеннаяПодсказка</name>
@@ -236,7 +236,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.СчетДт</segments>
+          <segments>Список.AccountDr</segments>
         </dataPath>
         <extendedTooltip>
           <name>СчетДтРасширеннаяПодсказка</name>
@@ -283,7 +283,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.СубконтоДт1</segments>
+          <segments>Список.ExtDimensionDr1</segments>
         </dataPath>
         <extendedTooltip>
           <name>СубконтоДт1РасширеннаяПодсказка</name>
@@ -329,7 +329,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.СубконтоДт2</segments>
+          <segments>Список.ExtDimensionDr2</segments>
         </dataPath>
         <extendedTooltip>
           <name>СубконтоДт2РасширеннаяПодсказка</name>
@@ -404,7 +404,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.ПодразделениеДт</segments>
+          <segments>Список.ПодразделениеDr</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПодразделениеДтРасширеннаяПодсказка</name>
@@ -450,7 +450,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.КоличествоДт</segments>
+          <segments>Список.КоличествоDr</segments>
         </dataPath>
         <extendedTooltip>
           <name>КоличествоДтРасширеннаяПодсказка</name>
@@ -525,7 +525,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.ВалютаДт</segments>
+          <segments>Список.ВалютаDr</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВалютаДтРасширеннаяПодсказка</name>
@@ -571,7 +571,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.СуммаВалютыДт</segments>
+          <segments>Список.СуммаВалютыDr</segments>
         </dataPath>
         <extendedTooltip>
           <name>СуммаВалютыДтРасширеннаяПодсказка</name>
@@ -646,7 +646,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.СчетКт</segments>
+          <segments>Список.AccountCr</segments>
         </dataPath>
         <extendedTooltip>
           <name>СчетКтРасширеннаяПодсказка</name>
@@ -693,7 +693,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.СубконтоКт1</segments>
+          <segments>Список.ExtDimensionCr1</segments>
         </dataPath>
         <extendedTooltip>
           <name>СубконтоКт1РасширеннаяПодсказка</name>
@@ -739,7 +739,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.СубконтоКт2</segments>
+          <segments>Список.ExtDimensionCr2</segments>
         </dataPath>
         <extendedTooltip>
           <name>СубконтоКт2РасширеннаяПодсказка</name>
@@ -814,7 +814,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.ПодразделениеКт</segments>
+          <segments>Список.ПодразделениеCr</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПодразделениеКтРасширеннаяПодсказка</name>
@@ -860,7 +860,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.КоличествоКт</segments>
+          <segments>Список.КоличествоCr</segments>
         </dataPath>
         <extendedTooltip>
           <name>КоличествоКтРасширеннаяПодсказка</name>
@@ -935,7 +935,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.ВалютаКт</segments>
+          <segments>Список.ВалютаCr</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВалютаКтРасширеннаяПодсказка</name>
@@ -981,7 +981,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.СуммаВалютыКт</segments>
+          <segments>Список.СуммаВалютыCr</segments>
         </dataPath>
         <extendedTooltip>
           <name>СуммаВалютыКтРасширеннаяПодсказка</name>
@@ -1223,7 +1223,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.Регистратор</segments>
+          <segments>Список.Recorder</segments>
         </dataPath>
         <extendedTooltip>
           <name>РегистраторРасширеннаяПодсказка</name>
@@ -1269,7 +1269,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Список.Активность</segments>
+          <segments>Список.Active</segments>
         </dataPath>
         <extendedTooltip>
           <name>АктивностьРасширеннаяПодсказка</name>

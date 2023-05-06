@@ -1180,7 +1180,7 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>1:c57193b4-91b5-4501-a076-f12bc9065ee7</command>
+        <command>0</command>
         <userVisible>
           <common>true</common>
         </userVisible>

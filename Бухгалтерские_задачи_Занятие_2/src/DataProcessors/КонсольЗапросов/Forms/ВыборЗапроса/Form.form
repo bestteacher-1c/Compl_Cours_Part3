@@ -1033,11 +1033,6 @@
     <main>true</main>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Запросы</segments>
-      </tablePath>
-    </additionalColumns>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
         <segments>Объект.Параметры</segments>
       </tablePath>
       <columns>
@@ -1087,6 +1082,11 @@
           <common>true</common>
         </edit>
       </columns>
+    </additionalColumns>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>Объект.Запросы</segments>
+      </tablePath>
     </additionalColumns>
   </attributes>
   <attributes>
