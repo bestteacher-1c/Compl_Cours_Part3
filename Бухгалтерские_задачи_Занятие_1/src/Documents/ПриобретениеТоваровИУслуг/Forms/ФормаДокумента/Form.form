@@ -806,9 +806,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>1/0:12cc8d61-d84f-43fd-88ca-522809fcf935/0:08424615-3065-4a11-bc7d-fb7ed18d5c93</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСчетУчетаРасширеннаяПодсказка</name>
         <id>41</id>
@@ -834,19 +831,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
     </items>
     <autoCommandBar>
       <name>ТоварыКоманднаяПанель</name>

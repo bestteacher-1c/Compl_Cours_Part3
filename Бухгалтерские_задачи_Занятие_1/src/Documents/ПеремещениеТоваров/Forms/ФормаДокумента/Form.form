@@ -698,9 +698,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>1/0:ce450bfe-f382-4793-b38c-5e1afd502b9c/0:0b520342-3da3-4521-aff0-353aabfc4aaf</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСтоимостьExtendedTooltip</name>
         <id>51</id>
@@ -726,22 +723,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <footerDataPath xsi:type="form:DataPath">
-        <segments>1/0:ce450bfe-f382-4793-b38c-5e1afd502b9c/101000000:0b520342-3da3-4521-aff0-353aabfc4aaf</segments>
-      </footerDataPath>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ТоварыСчетУчета</name>
@@ -751,9 +736,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>1/0:ce450bfe-f382-4793-b38c-5e1afd502b9c/0:62b0ab3d-12a0-4327-9aa5-b94cfc4433db</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСчетУчетаРасширеннаяПодсказка</name>
         <id>54</id>
@@ -779,19 +761,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ТоварыНовыйСчетУчета</name>
@@ -801,9 +774,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>1/0:ce450bfe-f382-4793-b38c-5e1afd502b9c/0:3350c0b5-30b4-48a0-b69d-e2df72507e68</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыНовыйСчетУчетаРасширеннаяПодсказка</name>
         <id>57</id>
@@ -829,19 +799,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ТоварыСобственник</name>
@@ -851,9 +812,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>1/0:ce450bfe-f382-4793-b38c-5e1afd502b9c/0:14cf3d32-89d9-4f8e-96a5-4f00219d0b67</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ТоварыСобственникРасширеннаяПодсказка</name>
         <id>60</id>
@@ -879,19 +837,10 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
       <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
     </items>
     <autoCommandBar>
       <name>ТоварыКоманднаяПанель</name>
