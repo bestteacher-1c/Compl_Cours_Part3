@@ -51,6 +51,7 @@
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.Бухгалтерия</subsystems>
   <styles>Style.ТакНеНадо</styles>
+  <commonPictures>CommonPicture.ФоновыйПроцесс</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ОтделПродаж</roles>
@@ -103,9 +104,9 @@
   <reports>Report.ОСВПоВалютам</reports>
   <reports>Report.КурсовыеРазницы</reports>
   <dataProcessors>DataProcessor.ЗнакомствоСЗапросом</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПерепроведениеПоступленийТоваров</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаДокументовПродажаТоваров</dataProcessors>
-  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
