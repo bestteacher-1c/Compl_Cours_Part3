@@ -44,8 +44,8 @@
   <commonPictures>CommonPicture.Документы</commonPictures>
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
   <commonModules>CommonModule.Сервис</commonModules>
-  <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
-  <commonModules>CommonModule.ОбщийМодульНаСервереВызовСКлиента</commonModules>
+  <commonModules>CommonModule.БухгалтерияНаСервере</commonModules>
+  <commonModules>CommonModule.НаСервереМожноВызватьСКлиента</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <eventSubscriptions>EventSubscription.ПроверкаЗаполненияПодразделения</eventSubscriptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>

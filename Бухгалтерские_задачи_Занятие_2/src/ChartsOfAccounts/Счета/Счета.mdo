@@ -256,6 +256,12 @@
       <offBalance>true</offBalance>
       <order>001</order>
     </items>
+    <items id="fc790ca3-665a-466b-beb2-52d9df6c5357">
+      <name>ВалютныйСчетВБанке</name>
+      <description>Валютный счет в банке</description>
+      <code>52    </code>
+      <order> 52</order>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
