@@ -18,6 +18,7 @@
   <content>Report.АнализСчета_</content>
   <content>Constant.СкладскойУчет</content>
   <content>Constant.ВалютаМСФО</content>
+  <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>

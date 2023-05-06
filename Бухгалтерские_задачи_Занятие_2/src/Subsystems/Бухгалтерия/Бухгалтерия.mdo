@@ -10,6 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Бухгалтерия</picture>
   </picture>
+  <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>

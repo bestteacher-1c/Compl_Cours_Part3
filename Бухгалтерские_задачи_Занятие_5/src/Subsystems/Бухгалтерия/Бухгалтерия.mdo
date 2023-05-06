@@ -23,6 +23,7 @@
   <content>Constant.РасчетыПоДоговорам</content>
   <content>Constant.УчетДДС</content>
   <content>DataProcessor.ИсправлениеПризнаковУчетаСубконто</content>
+  <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
