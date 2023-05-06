@@ -55,6 +55,7 @@
   <commonPictures>CommonPicture.Прочее</commonPictures>
   <commonPictures>CommonPicture.Документы</commonPictures>
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.ФоновыйПроцесс</commonPictures>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.ОбщийМодульНаСервереВызовСКлиента</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>

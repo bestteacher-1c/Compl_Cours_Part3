@@ -55,6 +55,7 @@
   <commonPictures>CommonPicture.Прочее</commonPictures>
   <commonPictures>CommonPicture.Документы</commonPictures>
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.ФоновыйПроцесс</commonPictures>
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
   <commonModules>CommonModule.ОбщийМодульНаСервереВызовСКлиента</commonModules>
@@ -108,9 +109,9 @@
   <reports>Report.АнализДДС</reports>
   <reports>Report.ОстаткиТоваровОпт</reports>
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПерепроведениеПоступленийТоваров</dataProcessors>
   <dataProcessors>DataProcessor.ИсправлениеПризнаковУчетаСубконто</dataProcessors>
-  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.СчетаУчетаНоменклатуры</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыНоменклатуры</chartsOfCharacteristicTypes>
