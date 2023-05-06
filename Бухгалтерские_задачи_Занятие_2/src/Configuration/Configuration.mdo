@@ -53,7 +53,7 @@
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
   <commonPictures>CommonPicture.ФоновыйПроцесс</commonPictures>
   <commonModules>CommonModule.Сервис</commonModules>
-  <commonModules>CommonModule.ОбщийМодульНаСервереВызовСКлиента</commonModules>
+  <commonModules>CommonModule.НаСервереМожноВызватьСКлиента</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <definedTypes>DefinedType.Количество</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>

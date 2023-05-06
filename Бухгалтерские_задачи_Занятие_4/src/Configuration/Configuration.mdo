@@ -57,8 +57,8 @@
   <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
   <commonPictures>CommonPicture.ФоновыйПроцесс</commonPictures>
   <commonModules>CommonModule.Сервис</commonModules>
-  <commonModules>CommonModule.ОбщийМодульНаСервере</commonModules>
-  <commonModules>CommonModule.ОбщийМодульНаСервереВызовСКлиента</commonModules>
+  <commonModules>CommonModule.БухгалтерияНаСервере</commonModules>
+  <commonModules>CommonModule.НаСервереМожноВызватьСКлиента</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
   <definedTypes>DefinedType.Количество</definedTypes>
