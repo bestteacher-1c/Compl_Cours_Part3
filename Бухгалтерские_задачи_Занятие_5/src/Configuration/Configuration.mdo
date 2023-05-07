@@ -58,9 +58,9 @@
   <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <commandGroups>CommandGroup.ПараметрыУчета</commandGroups>
   <constants>Constant.ПервыйЗапуск</constants>
+  <constants>Constant.ВалютаМСФО</constants>
   <constants>Constant.СкладскойУчет</constants>
   <constants>Constant.РасчетыПоДоговорам</constants>
-  <constants>Constant.ВалютаМСФО</constants>
   <constants>Constant.УчетДДС</constants>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
