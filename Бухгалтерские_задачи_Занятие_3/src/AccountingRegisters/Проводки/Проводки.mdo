@@ -75,6 +75,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <balance>true</balance>
   </dimensions>
+  <dimensions uuid="68bde660-dde2-41ba-84fa-4189911a75e1">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlag>
+  </dimensions>
   <resources uuid="69faf2b7-57ab-424a-99d8-df9e7970eecf">
     <name>Сумма</name>
     <synonym>
