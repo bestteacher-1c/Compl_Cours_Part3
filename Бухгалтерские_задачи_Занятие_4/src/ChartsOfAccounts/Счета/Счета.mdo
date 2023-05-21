@@ -300,6 +300,11 @@
         <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
       </extDimensionTypes>
     </items>
+    <items id="d9c6ac8d-c480-449e-8fd9-681cfffd0c31">
+      <name>ВалютныйСчетВБанке</name>
+      <description>Валютный счет в банке</description>
+      <code>52    </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

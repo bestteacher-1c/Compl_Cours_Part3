@@ -19,6 +19,8 @@
   <content>Constant.СкладскойУчет</content>
   <content>Constant.ВалютаМСФО</content>
   <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
+  <content>Constant.РасчетыПоДоговорам</content>
+  <content>Constant.УчетДДС</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>

@@ -27,6 +27,7 @@
     <types>CatalogRef.Контрагенты</types>
     <types>CatalogRef.Склады</types>
     <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
+    <types>CatalogRef.ДвиженияДенежныхСредств</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -74,6 +75,14 @@
       <code>000000004</code>
       <type>
         <types>CatalogRef.Сотрудники</types>
+      </type>
+    </items>
+    <items id="76a49299-d17c-4e1c-9875-637605bbe98b">
+      <name>ДвиженияДенежныхСредств</name>
+      <description>Движения денежных средств</description>
+      <code>000000007</code>
+      <type>
+        <types>CatalogRef.ДвиженияДенежныхСредств</types>
       </type>
     </items>
   </predefined>
