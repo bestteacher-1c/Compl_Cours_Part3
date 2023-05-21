@@ -60,7 +60,9 @@
   <commonModules>CommonModule.БухгалтерияНаСервере</commonModules>
   <commonModules>CommonModule.НаСервереМожноВызватьСКлиента</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
+  <functionalOptions>FunctionalOption.УчетПоПодразделениям</functionalOptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.ПФО_Организация</functionalOptionsParameters>
   <definedTypes>DefinedType.Количество</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <constants>Constant.ПервыйЗапуск</constants>
