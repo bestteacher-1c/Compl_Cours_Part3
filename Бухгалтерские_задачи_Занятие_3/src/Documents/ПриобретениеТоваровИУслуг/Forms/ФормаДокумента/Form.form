@@ -162,6 +162,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Организация</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОрганизацияПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ОрганизацияРасширеннаяПодсказка</name>
           <id>30</id>
@@ -1096,6 +1100,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
