@@ -20,6 +20,7 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияПользовательскихСубконто</characteristicExtValues>
   <type>
     <types>CatalogRef.Номенклатура</types>
     <types>CatalogRef.ДвиженияДенежныхСредств</types>
@@ -30,6 +31,7 @@
     <types>CatalogRef.Склады</types>
     <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
     <types>DocumentRef.РучнаяОперация</types>
+    <types>CatalogRef.ЗначенияПользовательскихСубконто</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>

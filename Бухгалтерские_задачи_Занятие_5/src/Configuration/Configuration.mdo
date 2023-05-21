@@ -58,10 +58,10 @@
   <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <commandGroups>CommandGroup.ПараметрыУчета</commandGroups>
   <constants>Constant.ПервыйЗапуск</constants>
-  <constants>Constant.ВалютаМСФО</constants>
   <constants>Constant.СкладскойУчет</constants>
   <constants>Constant.РасчетыПоДоговорам</constants>
   <constants>Constant.УчетДДС</constants>
+  <constants>Constant.ВалютаМСФО</constants>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -73,6 +73,7 @@
   <catalogs>Catalog.МестаХраненияДенежныхСредств</catalogs>
   <catalogs>Catalog.ДвиженияДенежныхСредств</catalogs>
   <catalogs>Catalog.ДополнительныеЗначения</catalogs>
+  <catalogs>Catalog.ЗначенияПользовательскихСубконто</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПеремещениеТоваров</documents>

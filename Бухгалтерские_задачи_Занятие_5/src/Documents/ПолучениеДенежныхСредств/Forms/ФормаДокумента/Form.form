@@ -692,6 +692,12 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <typeLink>
+          <linkItem>1</linkItem>
+          <datapath xsi:type="form:DataPath">
+            <segments>Объект.КорСчет</segments>
+          </datapath>
+        </typeLink>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -742,6 +748,18 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <choiceParameterLinks>
+          <name>Владелец</name>
+          <datapath xsi:type="form:DataPath">
+            <segments>Объект.КорСубконто1</segments>
+          </datapath>
+        </choiceParameterLinks>
+        <typeLink>
+          <linkItem>2</linkItem>
+          <datapath xsi:type="form:DataPath">
+            <segments>Объект.КорСчет</segments>
+          </datapath>
+        </typeLink>
       </extInfo>
     </items>
     <visible>true</visible>
