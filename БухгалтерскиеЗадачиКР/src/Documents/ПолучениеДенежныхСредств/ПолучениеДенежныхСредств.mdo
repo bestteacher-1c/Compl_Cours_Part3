@@ -102,6 +102,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="68df71e4-ab86-4c29-840f-e6242da5f28e">
+    <name>МестоХраненияДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХраненияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>CommonAttribute.Организация</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f98cd50-b039-4583-be3a-007c376bc3dc">
+    <name>ДвижениеДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДвиженияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ДвиженияДенежныхСредств.ПоступленияОтПокупателей</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="19de3990-a3c9-4ba1-a738-2ee8cd53b8d2">
     <name>Сумма</name>
     <synonym>
@@ -109,11 +145,7 @@
       <value>Сумма</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>DefinedType.ДенежнаяСумма</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -151,7 +183,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameters>
-      <name>Отбор.ЭтоГруппа</name>
+      <name>Отбор.НеИспользоватьВПроводках</name>
       <value xsi:type="core:BooleanValue"/>
     </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -169,6 +201,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>1</linkItem>
+      <field>Document.ПолучениеДенежныхСредств.Attribute.КорСчет</field>
+    </linkByType>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -184,6 +220,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>2</linkItem>
+      <field>Document.ПолучениеДенежныхСредств.Attribute.КорСчет</field>
+    </linkByType>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

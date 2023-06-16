@@ -20,14 +20,17 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияПользовательскихСубконто</characteristicExtValues>
   <type>
     <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ДвиженияДенежныхСредств</types>
     <types>CatalogRef.Договоры</types>
     <types>DocumentRef.ПеремещениеТоваров</types>
     <types>CatalogRef.Сотрудники</types>
     <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ЗначенияПользовательскихСубконто</types>
     <types>CatalogRef.Склады</types>
-    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
     <types>DocumentRef.РучнаяОперация</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
@@ -38,6 +41,14 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
+    <items id="07b6afe9-42f4-4501-8165-da4fa1f2a4ef">
+      <name>ДвиженияДенежныхСредств</name>
+      <description>Движения денежных средств</description>
+      <code>000000007</code>
+      <type>
+        <types>CatalogRef.ДвиженияДенежныхСредств</types>
+      </type>
+    </items>
     <items id="ae1c210a-b23e-4100-888d-67234a814238">
       <name>Договоры</name>
       <description>Договоры</description>
@@ -69,7 +80,7 @@
       <type>
         <types>CatalogRef.Номенклатура</types>
         <types>DocumentRef.ПеремещениеТоваров</types>
-        <types>DocumentRef.ПоступлениеТоваров</types>
+        <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
         <types>DocumentRef.РучнаяОперация</types>
       </type>
     </items>

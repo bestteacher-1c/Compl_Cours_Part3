@@ -10,11 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Бухгалтерия</picture>
   </picture>
-  <content>ChartOfAccounts.Счета</content>
   <content>AccountingRegister.Проводки</content>
-  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
-  <content>Document.РучнаяОперация</content>
-  <content>Catalog.ДополнительныеЗначения</content>
   <content>Constant.ВалютаМСФО</content>
   <content>Report.Шахматка</content>
   <content>Report.ОборотноСальдоваяВедомость</content>
@@ -22,7 +18,14 @@
   <content>Report.ЖурнальныйОрдер</content>
   <content>Report.Ведомость</content>
   <content>Report.АнализСчетаПоДатам</content>
-  <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
-  <content>InformationRegister.СчетаУчетаНоменклатуры</content>
   <content>Report.АнализСчета_</content>
+  <content>Constant.СкладскойУчет</content>
+  <content>Constant.РасчетыПоДоговорам</content>
+  <content>Constant.УчетДДС</content>
+  <content>DataProcessor.ИсправлениеПризнаковУчетаСубконто</content>
+  <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
+  <subsystems>Основное</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Прочее</subsystems>
 </mdclass:Subsystem>

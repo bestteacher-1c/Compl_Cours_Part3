@@ -102,6 +102,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e103fb41-9e5c-4e09-8cdf-fdda878ffd25">
+    <name>МестоХраненияДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХраненияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>CommonAttribute.Организация</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6ca66848-6876-4c51-bef0-18d10ee1d146">
+    <name>ДвижениеДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДвиженияДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ДвиженияДенежныхСредств.ВыплатыПоставщикам</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="54feb86f-2ad0-4f0e-9fac-5ae828cc4578">
     <name>Сумма</name>
     <synonym>
@@ -109,11 +145,7 @@
       <value>Сумма</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>DefinedType.ДенежнаяСумма</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -151,7 +183,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameters>
-      <name>Отбор.ЭтоГруппа</name>
+      <name>Отбор.НеИспользоватьВПроводках</name>
       <value xsi:type="core:BooleanValue"/>
     </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>

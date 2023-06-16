@@ -11,7 +11,6 @@
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <fillChecking>ShowError</fillChecking>
-  <dataHistory>Use</dataHistory>
   <fillValue xsi:type="core:UndefinedValue"/>
   <content>
     <metadata>DocumentJournal.Товарный</metadata>
@@ -26,7 +25,7 @@
     <use>Use</use>
   </content>
   <content>
-    <metadata>Document.ПродажаТоваров</metadata>
+    <metadata>Document.РеализацияТоваровИУслуг</metadata>
     <use>Use</use>
   </content>
   <content>
@@ -38,7 +37,7 @@
     <use>Use</use>
   </content>
   <content>
-    <metadata>Document.ПоступлениеТоваров</metadata>
+    <metadata>Document.ПриобретениеТоваровИУслуг</metadata>
     <use>Use</use>
   </content>
   <autoUse>DontUse</autoUse>

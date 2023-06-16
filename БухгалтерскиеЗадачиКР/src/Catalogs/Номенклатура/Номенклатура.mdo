@@ -113,21 +113,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="e5f77f1a-d6ab-47e5-8e0b-dbd3e0a05124">
-    <name>ГруппаФинансовогоУчетаНоменклатуры</name>
-    <synonym>
-      <key>ru</key>
-      <value>Группа финансового учета номенклатуры</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ГруппыФининсовогоУчетаНоменклатуры</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <tabularSections uuid="b674556b-b546-402b-94c6-bae68a5cbb55">
     <producedTypes>
       <objectType typeId="80255b6f-95e7-48b1-a67b-997db2440547" valueTypeId="604258bf-b711-4b14-b517-cccb335d721b"/>
@@ -171,6 +156,10 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.ДополнительныйРеквизит</field>
+      </choiceParameterLinks>
       <linkByType>
         <field>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.ДополнительныйРеквизит</field>
       </linkByType>

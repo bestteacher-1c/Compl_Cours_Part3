@@ -3,21 +3,15 @@
   <commandsVisibility>
     <visibilityFragments>
       <command>DocumentJournal.Товарный.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>DocumentJournal.ДенежныеСредства.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
@@ -29,6 +23,7 @@
     <placementFragments>
       <group>ActionsPanelTools</group>
       <commands>DataProcessor.ИнструментыРазработчикаКонсольЗапросов.StandardCommand.Open</commands>
+      <commands>DataProcessor.КонсольЗапросов.StandardCommand.Open</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>

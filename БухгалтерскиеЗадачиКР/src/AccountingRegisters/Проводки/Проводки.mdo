@@ -126,26 +126,8 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>AccountingRegister.Проводки.Dimension.Организация</field>
-    </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.ПоПодразделениям</accountingFlag>
-  </dimensions>
-  <dimensions uuid="55cf2156-282b-4add-a5be-037bfaae2300">
-    <name>Валюта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Валюта</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Валюты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.Валютный</accountingFlag>
   </dimensions>
   <resources uuid="69faf2b7-57ab-424a-99d8-df9e7970eecf">
     <name>Сумма</name>
@@ -154,11 +136,7 @@
       <value>Сумма</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>DefinedType.ДенежнаяСумма</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -172,52 +150,12 @@
       <value>Количество</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>3</scale>
-      </numberQualifiers>
+      <types>DefinedType.Количество</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.Количественный</accountingFlag>
-  </resources>
-  <resources uuid="336c8a8b-96d6-4141-bdd1-94bce8d11574">
-    <name>СуммаВалюты</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма валюты</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <accountingFlag>ChartOfAccounts.Счета.AccountingFlag.Валютный</accountingFlag>
-  </resources>
-  <resources uuid="6ba089a5-ad29-474a-a007-c92a3297ef62">
-    <name>СуммаМСФО</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма МСФО</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <balance>true</balance>
   </resources>
   <attributes uuid="f383a4fb-af90-4abb-94a0-a3178554e240">
     <name>СодержаниеПроводки</name>
@@ -233,7 +171,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
-  <forms uuid="8e29add4-36e7-4a1e-8ee5-62bef68a760c">
+  <forms uuid="82fc4636-38dc-4241-9670-8d91bf655189">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

@@ -61,31 +61,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameters>
-      <name>Отбор.Забалансовый</name>
-      <value xsi:type="core:BooleanValue"/>
-    </choiceParameters>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="c155728f-213c-4dea-a53b-369e4527f245">
-    <name>СчетУчетаЗабалансовый</name>
-    <synonym>
-      <key>ru</key>
-      <value>Счет учета забалансовый</value>
-    </synonym>
-    <type>
-      <types>ChartOfAccountsRef.Счета</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameters>
-      <name>Отбор.Забалансовый</name>
-      <value xsi:type="core:BooleanValue">
-        <value>true</value>
-      </value>
-    </choiceParameters>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -108,14 +83,14 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="4d3d022d-dbd5-4dc6-8e12-fe333a008c4b">
-    <name>ГруппаФинансовогоУчетаНоменклатуры</name>
+  <dimensions uuid="4d9af01e-d5ac-49d3-b3a4-8c35b7db6255">
+    <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
-      <value>Группа финансового учета номенклатуры</value>
+      <value>Номенклатура</value>
     </synonym>
     <type>
-      <types>CatalogRef.ГруппыФининсовогоУчетаНоменклатуры</types>
+      <types>CatalogRef.Номенклатура</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
