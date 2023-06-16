@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f335951-78b9-4533-82de-41635d04b13c">
+  <producedTypes>
+    <objectType typeId="08fe37a1-07fd-4d35-94e3-54d254035455" valueTypeId="bd56304b-3a64-40e0-abc4-3bdc784733cb"/>
+    <managerType typeId="7cf03843-b778-4615-af58-8c2c9064ec48" valueTypeId="28df0f02-2f62-44ab-b115-85b61c451356"/>
+  </producedTypes>
+  <name>ИсправлениеПризнаковУчетаСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исправление признаков учета субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИсправлениеПризнаковУчетаСубконто.Form.Форма</defaultForm>
+  <forms uuid="85e79037-65ef-4bc6-b8e3-d7d60e5107ad">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
