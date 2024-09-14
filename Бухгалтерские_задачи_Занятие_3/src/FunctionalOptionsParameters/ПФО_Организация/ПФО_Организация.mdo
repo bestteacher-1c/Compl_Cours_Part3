@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1044b633-41ff-43ed-b9eb-9c76711d9dba">
-  <name>ПФО_Организация</name>
-  <synonym>
-    <key>ru</key>
-    <value>ПФО организация</value>
-  </synonym>
-  <use>Catalog.Организации</use>
-</mdclass:FunctionalOptionsParameter>
