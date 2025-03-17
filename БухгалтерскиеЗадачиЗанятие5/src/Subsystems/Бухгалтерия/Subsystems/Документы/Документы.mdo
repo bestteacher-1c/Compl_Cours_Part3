@@ -15,6 +15,5 @@
   <content>Document.РучнаяОперация</content>
   <content>DocumentJournal.Товарный</content>
   <content>DocumentJournal.ДенежныеСредства</content>
-  <content>Document.КурсовыеРазницы</content>
   <parentSubsystem>Subsystem.Бухгалтерия</parentSubsystem>
 </mdclass:Subsystem>

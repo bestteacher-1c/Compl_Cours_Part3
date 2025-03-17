@@ -28,7 +28,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <compatibilityMode>8.3.22</compatibilityMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
   <languages uuid="1c4e2401-555b-46e4-a5ed-92d24a3b8684">
     <name>Русский</name>
     <synonym>
@@ -79,7 +79,6 @@
   <documents>Document.ПолучениеДенежныхСредств</documents>
   <documents>Document.ВыплатыДенежныхСредств</documents>
   <documents>Document.РучнаяОперация</documents>
-  <documents>Document.КурсовыеРазницы</documents>
   <documentJournals>DocumentJournal.Товарный</documentJournals>
   <documentJournals>DocumentJournal.ДенежныеСредства</documentJournals>
   <enums>Enum.ВидыОперацийПродажиТоваров</enums>
