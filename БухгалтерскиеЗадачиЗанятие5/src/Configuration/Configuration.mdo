@@ -79,6 +79,7 @@
   <documents>Document.ПолучениеДенежныхСредств</documents>
   <documents>Document.ВыплатыДенежныхСредств</documents>
   <documents>Document.РучнаяОперация</documents>
+  <documents>Document.КурсовыеРазницы</documents>
   <documentJournals>DocumentJournal.Товарный</documentJournals>
   <documentJournals>DocumentJournal.ДенежныеСредства</documentJournals>
   <enums>Enum.ВидыОперацийПродажиТоваров</enums>
