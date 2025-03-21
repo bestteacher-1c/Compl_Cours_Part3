@@ -77,7 +77,7 @@
       <value>ChartOfAccounts.Счета.EmptyRef</value>
     </fillValue>
     <choiceParameters>
-      <name>Отбор.ЭтоГруппа</name>
+      <name>Отбор.НеИспользоватьВПроводках</name>
       <value xsi:type="core:BooleanValue">
         <value>true</value>
       </value>
