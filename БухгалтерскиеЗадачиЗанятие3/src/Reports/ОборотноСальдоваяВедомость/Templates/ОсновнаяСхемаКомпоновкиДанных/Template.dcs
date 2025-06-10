@@ -61,6 +61,14 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПроводкиОстаткиИОбороты.Счет,
@@ -76,8 +84,7 @@
 			,
 			,
 			,
-			&amp;ВыводитьЗабалансовыеСчета
-				ИЛИ НЕ Счет.Забалансовый,
+			,
 			) КАК ПроводкиОстаткиИОбороты</query>
 	</dataSet>
 	<totalField>
@@ -160,21 +167,6 @@
 		</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
-	<parameter>
-		<name>ВыводитьЗабалансовыеСчета</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Выводить забалансовые счета</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:boolean</v8:Type>
-		</valueType>
-		<value xsi:type="xs:boolean">false</value>
-		<useRestriction>false</useRestriction>
-		<use>Always</use>
-	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
@@ -256,12 +248,13 @@
 						<dcsset:left xsi:type="dcscor:Field">Счет.Забалансовый</dcsset:left>
 						<dcsset:comparisonType>Equal</dcsset:comparisonType>
 						<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+						<dcsset:viewMode>Inaccessible</dcsset:viewMode>
 					</dcsset:item>
 					<dcsset:userSettingID>6bec4f63-efbf-4f29-bde6-8a78be3f56ac</dcsset:userSettingID>
 					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Без учета забалансовых счетов</v8:content>
+							<v8:content>Выводить без забалансовых счетов</v8:content>
 						</v8:item>
 					</dcsset:userSettingPresentation>
 				</dcsset:item>
@@ -275,11 +268,6 @@
 						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
 					</dcscor:value>
 					<dcsset:userSettingID>c3dae452-4c31-48a3-8f63-6208380c514e</dcsset:userSettingID>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ВыводитьЗабалансовыеСчета</dcscor:parameter>
-					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
-					<dcsset:userSettingID>c57375fb-7a87-495f-a56b-11d47574c187</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:order>
@@ -324,9 +312,9 @@
 					<dcsset:selection/>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">СистемныеПоля.Уровень</dcsset:left>
+							<dcsset:left xsi:type="dcscor:Field">Счет.НеИспользоватьВПроводках</dcsset:left>
 							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:decimal">1</dcsset:right>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
 						</dcsset:item>
 					</dcsset:filter>
 					<dcsset:appearance>
