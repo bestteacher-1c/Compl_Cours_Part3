@@ -54,6 +54,8 @@
   <commonModules>CommonModule.Сервис</commonModules>
   <commonModules>CommonModule.НаСервереМожноВызватьСКлиента</commonModules>
   <commonAttributes>CommonAttribute.Организация</commonAttributes>
+  <functionalOptions>FunctionalOption.УчетПоПодразделениям</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.ПФО_Организация</functionalOptionsParameters>
   <definedTypes>DefinedType.Количество</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСумма</definedTypes>
   <constants>Constant.СкладскойУчет</constants>
