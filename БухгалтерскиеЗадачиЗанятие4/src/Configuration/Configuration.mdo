@@ -95,7 +95,6 @@
   <reports>Report.АнализСчетаМетодичка</reports>
   <reports>Report.ЖурнальныйОрдер</reports>
   <reports>Report.Ведомость</reports>
-  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПерепроведениеПоступленийТоваров</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>

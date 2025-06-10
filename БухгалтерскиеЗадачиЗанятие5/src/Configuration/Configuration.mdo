@@ -90,7 +90,6 @@
   <reports>Report.ЖурнальныйОрдер</reports>
   <reports>Report.Ведомость</reports>
   <reports>Report.АнализСчетаПоДатам</reports>
-  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПерепроведениеПоступленийТоваров</dataProcessors>
   <dataProcessors>DataProcessor.ИсправлениеПризнаковУчетаСубконто</dataProcessors>

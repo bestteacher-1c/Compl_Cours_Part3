@@ -107,7 +107,6 @@
   <reports>Report.КурсовыеРазницы</reports>
   <reports>Report.АнализДДС</reports>
   <reports>Report.ОстаткиТоваровОпт</reports>
-  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ПерепроведениеПоступленийТоваров</dataProcessors>
   <dataProcessors>DataProcessor.ИсправлениеПризнаковУчетаСубконто</dataProcessors>
