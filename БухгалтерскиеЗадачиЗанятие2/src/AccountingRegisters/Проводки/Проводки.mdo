@@ -61,20 +61,6 @@
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <dimensions uuid="1db6f879-b587-4893-815c-7ce67925076d">
-    <name>Организация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Организация</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Организации</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <balance>true</balance>
-  </dimensions>
   <resources uuid="69faf2b7-57ab-424a-99d8-df9e7970eecf">
     <name>Сумма</name>
     <synonym>
