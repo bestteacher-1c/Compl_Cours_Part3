@@ -24,6 +24,8 @@
   <content>Constant.УчетДДС</content>
   <content>DataProcessor.ИсправлениеПризнаковУчетаСубконто</content>
   <content>DataProcessor.ПерепроведениеПоступленийТоваров</content>
+  <content>Report.АнализДДС</content>
+  <content>Report.ОстаткиТоваровОпт</content>
   <subsystems>Основное</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>

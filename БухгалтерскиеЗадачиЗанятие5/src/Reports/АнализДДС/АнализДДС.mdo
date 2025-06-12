@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acc9954c-7ab7-4658-a914-71128fa60027">
+  <producedTypes>
+    <objectType typeId="8493c987-d929-471c-9012-8f5a4765bb50" valueTypeId="4ee9e214-31a7-411d-8f13-086b289e97b6"/>
+    <managerType typeId="fcea6d14-3bbe-4a94-9b3c-9548e73b0962" valueTypeId="24825245-77bc-45ec-bb51-3109417c4924"/>
+  </producedTypes>
+  <name>АнализДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализДДС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d70c45eb-1944-4896-aec8-55fdc4d78588">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
