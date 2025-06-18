@@ -696,6 +696,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.КорСубконто1</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>КорСубконто1ПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>КорСубконто1РасширеннаяПодсказка</name>
         <id>12</id>
