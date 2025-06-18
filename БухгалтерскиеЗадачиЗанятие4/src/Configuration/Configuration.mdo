@@ -80,6 +80,7 @@
   <catalogs>Catalog.ДополнительныеЗначения</catalogs>
   <catalogs>Catalog.ДвиженияДенежныхСредств</catalogs>
   <catalogs>Catalog.МестаХраненияДенежныхСредств</catalogs>
+  <catalogs>Catalog.ЗначенияПользовательскихСубконто</catalogs>
   <documents>Document.ПриобретениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПеремещениеТоваров</documents>

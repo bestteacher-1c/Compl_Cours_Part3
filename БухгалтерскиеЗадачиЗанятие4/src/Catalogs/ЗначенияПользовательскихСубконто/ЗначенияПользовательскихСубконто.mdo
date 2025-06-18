@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7f8d467-fe6d-4bb8-9f26-87da05944a07">
+  <producedTypes>
+    <objectType typeId="7c0b2a22-53ac-4587-a64c-c4be2d20bf83" valueTypeId="7b3d9400-80cc-4f0b-90d1-d6b8c55deef0"/>
+    <refType typeId="b79e0171-3e32-44c4-aa6e-c4f7660d09c2" valueTypeId="c73ff6ca-f818-4844-a5e5-5e79c10ba9c7"/>
+    <selectionType typeId="a147cad8-fa4f-42ff-b18d-801e12b696be" valueTypeId="2c2f81cd-3292-4e13-b02d-e4c8f15310cc"/>
+    <listType typeId="fef71ee8-8e86-41e4-b01e-f634841837de" valueTypeId="f377d1a3-c5cb-401d-a133-b7e9e459161d"/>
+    <managerType typeId="629d6744-ce66-47a2-ae7b-6af8a0760649" valueTypeId="7662dcd2-a128-468c-9287-1b18966abd97"/>
+  </producedTypes>
+  <name>ЗначенияПользовательскихСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения пользовательских субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗначенияПользовательскихСубконто.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗначенияПользовательскихСубконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.ВидыСубконто</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

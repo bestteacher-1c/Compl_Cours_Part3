@@ -20,11 +20,13 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияПользовательскихСубконто</characteristicExtValues>
   <type>
     <types>CatalogRef.ДвиженияДенежныхСредств</types>
     <types>CatalogRef.Номенклатура</types>
     <types>CatalogRef.Договоры</types>
     <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.ЗначенияПользовательскихСубконто</types>
     <types>CatalogRef.Контрагенты</types>
     <types>CatalogRef.Склады</types>
     <types>DocumentRef.ПриобретениеТоваровИУслуг</types>
